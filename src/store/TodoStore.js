@@ -31,11 +31,11 @@ class TodoStore {
 
     @action
     clearComplete = () => {
-        this.todosFull.forEach(todo => {
-            if(todo.completed == true){
-                this.deleteTodo(todo.id)
-            }
+        this.todos = this.todosFull.filter(todo => {
+            if(todo.completed == false)
+                return todo
         })
+        this.todosFull = this.todos
         this.filter()
     }
 
