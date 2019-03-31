@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "95254b15c1361153d883",
+    "revision": "1ff52d5414ebdfce1474",
     "url": "/todo/static/css/main.988a2837.chunk.css"
   },
   {
-    "revision": "95254b15c1361153d883",
-    "url": "/todo/static/js/main.3ef1c3bc.chunk.js"
+    "revision": "1ff52d5414ebdfce1474",
+    "url": "/todo/static/js/main.b2d832bb.chunk.js"
   },
   {
     "revision": "3ce2d46cb5510c372f4d",
